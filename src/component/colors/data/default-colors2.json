@@ -1,0 +1,1010 @@
+[
+    {
+        "rgb": [
+            239,
+            243,
+            255
+        ],
+        "sequenceId": "Blues"
+    },
+    {
+        "rgb": [
+            198,
+            219,
+            239
+        ],
+        "sequenceId": "Blues"
+    },
+    {
+        "rgb": [
+            158,
+            202,
+            225
+        ],
+        "sequenceId": "Blues"
+    },
+    {
+        "rgb": [
+            107,
+            174,
+            214
+        ],
+        "sequenceId": "Blues"
+    },
+    {
+        "rgb": [
+            66,
+            146,
+            198
+        ],
+        "sequenceId": "Blues"
+    },
+    {
+        "rgb": [
+            33,
+            113,
+            181
+        ],
+        "sequenceId": "Blues"
+    },
+    {
+        "rgb": [
+            8,
+            69,
+            148
+        ],
+        "sequenceId": "Blues"
+    },
+    {
+        "rgb": [
+            237,
+            248,
+            251
+        ],
+        "sequenceId": "BuGn"
+    },
+    {
+        "rgb": [
+            204,
+            236,
+            230
+        ],
+        "sequenceId": "BuGn"
+    },
+    {
+        "rgb": [
+            153,
+            216,
+            201
+        ],
+        "sequenceId": "BuGn"
+    },
+    {
+        "rgb": [
+            102,
+            194,
+            164
+        ],
+        "sequenceId": "BuGn"
+    },
+    {
+        "rgb": [
+            65,
+            174,
+            118
+        ],
+        "sequenceId": "BuGn"
+    },
+    {
+        "rgb": [
+            35,
+            139,
+            69
+        ],
+        "sequenceId": "BuGn"
+    },
+    {
+        "rgb": [
+            0,
+            88,
+            36
+        ],
+        "sequenceId": "BuGn"
+    },
+    {
+        "rgb": [
+            237,
+            248,
+            251
+        ],
+        "sequenceId": "BuPu"
+    },
+    {
+        "rgb": [
+            191,
+            211,
+            230
+        ],
+        "sequenceId": "BuPu"
+    },
+    {
+        "rgb": [
+            158,
+            188,
+            218
+        ],
+        "sequenceId": "BuPu"
+    },
+    {
+        "rgb": [
+            140,
+            150,
+            198
+        ],
+        "sequenceId": "BuPu"
+    },
+    {
+        "rgb": [
+            140,
+            107,
+            177
+        ],
+        "sequenceId": "BuPu"
+    },
+    {
+        "rgb": [
+            136,
+            65,
+            157
+        ],
+        "sequenceId": "BuPu"
+    },
+    {
+        "rgb": [
+            110,
+            1,
+            107
+        ],
+        "sequenceId": "BuPu"
+    },
+    {
+        "rgb": [
+            240,
+            249,
+            232
+        ],
+        "sequenceId": "GnBu"
+    },
+    {
+        "rgb": [
+            204,
+            235,
+            197
+        ],
+        "sequenceId": "GnBu"
+    },
+    {
+        "rgb": [
+            168,
+            221,
+            181
+        ],
+        "sequenceId": "GnBu"
+    },
+    {
+        "rgb": [
+            123,
+            204,
+            196
+        ],
+        "sequenceId": "GnBu"
+    },
+    {
+        "rgb": [
+            78,
+            179,
+            211
+        ],
+        "sequenceId": "GnBu"
+    },
+    {
+        "rgb": [
+            43,
+            140,
+            190
+        ],
+        "sequenceId": "GnBu"
+    },
+    {
+        "rgb": [
+            8,
+            88,
+            158
+        ],
+        "sequenceId": "GnBu"
+    },
+    {
+        "rgb": [
+            237,
+            248,
+            233
+        ],
+        "sequenceId": "Greens"
+    },
+    {
+        "rgb": [
+            199,
+            233,
+            192
+        ],
+        "sequenceId": "Greens"
+    },
+    {
+        "rgb": [
+            161,
+            217,
+            155
+        ],
+        "sequenceId": "Greens"
+    },
+    {
+        "rgb": [
+            116,
+            196,
+            118
+        ],
+        "sequenceId": "Greens"
+    },
+    {
+        "rgb": [
+            65,
+            171,
+            93
+        ],
+        "sequenceId": "Greens"
+    },
+    {
+        "rgb": [
+            35,
+            139,
+            69
+        ],
+        "sequenceId": "Greens"
+    },
+    {
+        "rgb": [
+            0,
+            90,
+            50
+        ],
+        "sequenceId": "Greens"
+    },
+    {
+        "rgb": [
+            247,
+            247,
+            247
+        ],
+        "sequenceId": "Greys"
+    },
+    {
+        "rgb": [
+            217,
+            217,
+            217
+        ],
+        "sequenceId": "Greys"
+    },
+    {
+        "rgb": [
+            189,
+            189,
+            189
+        ],
+        "sequenceId": "Greys"
+    },
+    {
+        "rgb": [
+            150,
+            150,
+            150
+        ],
+        "sequenceId": "Greys"
+    },
+    {
+        "rgb": [
+            115,
+            115,
+            115
+        ],
+        "sequenceId": "Greys"
+    },
+    {
+        "rgb": [
+            82,
+            82,
+            82
+        ],
+        "sequenceId": "Greys"
+    },
+    {
+        "rgb": [
+            37,
+            37,
+            37
+        ],
+        "sequenceId": "Greys"
+    },
+    {
+        "rgb": [
+            254,
+            240,
+            217
+        ],
+        "sequenceId": "OrRd"
+    },
+    {
+        "rgb": [
+            253,
+            212,
+            158
+        ],
+        "sequenceId": "OrRd"
+    },
+    {
+        "rgb": [
+            253,
+            187,
+            132
+        ],
+        "sequenceId": "OrRd"
+    },
+    {
+        "rgb": [
+            252,
+            141,
+            89
+        ],
+        "sequenceId": "OrRd"
+    },
+    {
+        "rgb": [
+            239,
+            101,
+            72
+        ],
+        "sequenceId": "OrRd"
+    },
+    {
+        "rgb": [
+            215,
+            48,
+            31
+        ],
+        "sequenceId": "OrRd"
+    },
+    {
+        "rgb": [
+            153,
+            0,
+            0
+        ],
+        "sequenceId": "OrRd"
+    },
+    {
+        "rgb": [
+            254,
+            237,
+            222
+        ],
+        "sequenceId": "Oranges"
+    },
+    {
+        "rgb": [
+            253,
+            208,
+            162
+        ],
+        "sequenceId": "Oranges"
+    },
+    {
+        "rgb": [
+            253,
+            174,
+            107
+        ],
+        "sequenceId": "Oranges"
+    },
+    {
+        "rgb": [
+            253,
+            141,
+            60
+        ],
+        "sequenceId": "Oranges"
+    },
+    {
+        "rgb": [
+            241,
+            105,
+            19
+        ],
+        "sequenceId": "Oranges"
+    },
+    {
+        "rgb": [
+            217,
+            72,
+            1
+        ],
+        "sequenceId": "Oranges"
+    },
+    {
+        "rgb": [
+            140,
+            45,
+            4
+        ],
+        "sequenceId": "Oranges"
+    },
+    {
+        "rgb": [
+            241,
+            238,
+            246
+        ],
+        "sequenceId": "PuBu"
+    },
+    {
+        "rgb": [
+            208,
+            209,
+            230
+        ],
+        "sequenceId": "PuBu"
+    },
+    {
+        "rgb": [
+            166,
+            189,
+            219
+        ],
+        "sequenceId": "PuBu"
+    },
+    {
+        "rgb": [
+            116,
+            169,
+            207
+        ],
+        "sequenceId": "PuBu"
+    },
+    {
+        "rgb": [
+            54,
+            144,
+            192
+        ],
+        "sequenceId": "PuBu"
+    },
+    {
+        "rgb": [
+            5,
+            112,
+            176
+        ],
+        "sequenceId": "PuBu"
+    },
+    {
+        "rgb": [
+            3,
+            78,
+            123
+        ],
+        "sequenceId": "PuBu"
+    },
+    {
+        "rgb": [
+            246,
+            239,
+            247
+        ],
+        "sequenceId": "PuBuGn"
+    },
+    {
+        "rgb": [
+            208,
+            209,
+            230
+        ],
+        "sequenceId": "PuBuGn"
+    },
+    {
+        "rgb": [
+            166,
+            189,
+            219
+        ],
+        "sequenceId": "PuBuGn"
+    },
+    {
+        "rgb": [
+            103,
+            169,
+            207
+        ],
+        "sequenceId": "PuBuGn"
+    },
+    {
+        "rgb": [
+            54,
+            144,
+            192
+        ],
+        "sequenceId": "PuBuGn"
+    },
+    {
+        "rgb": [
+            2,
+            129,
+            138
+        ],
+        "sequenceId": "PuBuGn"
+    },
+    {
+        "rgb": [
+            1,
+            100,
+            80
+        ],
+        "sequenceId": "PuBuGn"
+    },
+    {
+        "rgb": [
+            241,
+            238,
+            246
+        ],
+        "sequenceId": "PuRd"
+    },
+    {
+        "rgb": [
+            212,
+            185,
+            218
+        ],
+        "sequenceId": "PuRd"
+    },
+    {
+        "rgb": [
+            201,
+            148,
+            199
+        ],
+        "sequenceId": "PuRd"
+    },
+    {
+        "rgb": [
+            223,
+            101,
+            176
+        ],
+        "sequenceId": "PuRd"
+    },
+    {
+        "rgb": [
+            231,
+            41,
+            138
+        ],
+        "sequenceId": "PuRd"
+    },
+    {
+        "rgb": [
+            206,
+            18,
+            86
+        ],
+        "sequenceId": "PuRd"
+    },
+    {
+        "rgb": [
+            145,
+            0,
+            63
+        ],
+        "sequenceId": "PuRd"
+    },
+    {
+        "rgb": [
+            242,
+            240,
+            247
+        ],
+        "sequenceId": "Purples"
+    },
+    {
+        "rgb": [
+            218,
+            218,
+            235
+        ],
+        "sequenceId": "Purples"
+    },
+    {
+        "rgb": [
+            188,
+            189,
+            220
+        ],
+        "sequenceId": "Purples"
+    },
+    {
+        "rgb": [
+            158,
+            154,
+            200
+        ],
+        "sequenceId": "Purples"
+    },
+    {
+        "rgb": [
+            128,
+            125,
+            186
+        ],
+        "sequenceId": "Purples"
+    },
+    {
+        "rgb": [
+            106,
+            81,
+            163
+        ],
+        "sequenceId": "Purples"
+    },
+    {
+        "rgb": [
+            74,
+            20,
+            134
+        ],
+        "sequenceId": "Purples"
+    },
+    {
+        "rgb": [
+            254,
+            235,
+            226
+        ],
+        "sequenceId": "RdPu"
+    },
+    {
+        "rgb": [
+            252,
+            197,
+            192
+        ],
+        "sequenceId": "RdPu"
+    },
+    {
+        "rgb": [
+            250,
+            159,
+            181
+        ],
+        "sequenceId": "RdPu"
+    },
+    {
+        "rgb": [
+            247,
+            104,
+            161
+        ],
+        "sequenceId": "RdPu"
+    },
+    {
+        "rgb": [
+            221,
+            52,
+            151
+        ],
+        "sequenceId": "RdPu"
+    },
+    {
+        "rgb": [
+            174,
+            1,
+            126
+        ],
+        "sequenceId": "RdPu"
+    },
+    {
+        "rgb": [
+            122,
+            1,
+            119
+        ],
+        "sequenceId": "RdPu"
+    },
+    {
+        "rgb": [
+            254,
+            229,
+            217
+        ],
+        "sequenceId": "Reds"
+    },
+    {
+        "rgb": [
+            252,
+            187,
+            161
+        ],
+        "sequenceId": "Reds"
+    },
+    {
+        "rgb": [
+            252,
+            146,
+            114
+        ],
+        "sequenceId": "Reds"
+    },
+    {
+        "rgb": [
+            251,
+            106,
+            74
+        ],
+        "sequenceId": "Reds"
+    },
+    {
+        "rgb": [
+            239,
+            59,
+            44
+        ],
+        "sequenceId": "Reds"
+    },
+    {
+        "rgb": [
+            203,
+            24,
+            29
+        ],
+        "sequenceId": "Reds"
+    },
+    {
+        "rgb": [
+            153,
+            0,
+            13
+        ],
+        "sequenceId": "Reds"
+    },
+    {
+        "rgb": [
+            255,
+            255,
+            204
+        ],
+        "sequenceId": "YlGn"
+    },
+    {
+        "rgb": [
+            217,
+            240,
+            163
+        ],
+        "sequenceId": "YlGn"
+    },
+    {
+        "rgb": [
+            173,
+            221,
+            142
+        ],
+        "sequenceId": "YlGn"
+    },
+    {
+        "rgb": [
+            120,
+            198,
+            121
+        ],
+        "sequenceId": "YlGn"
+    },
+    {
+        "rgb": [
+            65,
+            171,
+            93
+        ],
+        "sequenceId": "YlGn"
+    },
+    {
+        "rgb": [
+            35,
+            132,
+            67
+        ],
+        "sequenceId": "YlGn"
+    },
+    {
+        "rgb": [
+            0,
+            90,
+            50
+        ],
+        "sequenceId": "YlGn"
+    },
+    {
+        "rgb": [
+            255,
+            255,
+            204
+        ],
+        "sequenceId": "YlGnBu"
+    },
+    {
+        "rgb": [
+            199,
+            233,
+            180
+        ],
+        "sequenceId": "YlGnBu"
+    },
+    {
+        "rgb": [
+            127,
+            205,
+            187
+        ],
+        "sequenceId": "YlGnBu"
+    },
+    {
+        "rgb": [
+            65,
+            182,
+            196
+        ],
+        "sequenceId": "YlGnBu"
+    },
+    {
+        "rgb": [
+            29,
+            145,
+            192
+        ],
+        "sequenceId": "YlGnBu"
+    },
+    {
+        "rgb": [
+            34,
+            94,
+            168
+        ],
+        "sequenceId": "YlGnBu"
+    },
+    {
+        "rgb": [
+            12,
+            44,
+            132
+        ],
+        "sequenceId": "YlGnBu"
+    },
+    {
+        "rgb": [
+            255,
+            255,
+            212
+        ],
+        "sequenceId": "YlOrBr"
+    },
+    {
+        "rgb": [
+            254,
+            227,
+            145
+        ],
+        "sequenceId": "YlOrBr"
+    },
+    {
+        "rgb": [
+            254,
+            196,
+            79
+        ],
+        "sequenceId": "YlOrBr"
+    },
+    {
+        "rgb": [
+            254,
+            153,
+            41
+        ],
+        "sequenceId": "YlOrBr"
+    },
+    {
+        "rgb": [
+            236,
+            112,
+            20
+        ],
+        "sequenceId": "YlOrBr"
+    },
+    {
+        "rgb": [
+            204,
+            76,
+            2
+        ],
+        "sequenceId": "YlOrBr"
+    },
+    {
+        "rgb": [
+            140,
+            45,
+            4
+        ],
+        "sequenceId": "YlOrBr"
+    },
+    {
+        "rgb": [
+            255,
+            255,
+            178
+        ],
+        "sequenceId": "YlOrRd"
+    },
+    {
+        "rgb": [
+            254,
+            217,
+            118
+        ],
+        "sequenceId": "YlOrRd"
+    },
+    {
+        "rgb": [
+            254,
+            178,
+            76
+        ],
+        "sequenceId": "YlOrRd"
+    },
+    {
+        "rgb": [
+            253,
+            141,
+            60
+        ],
+        "sequenceId": "YlOrRd"
+    },
+    {
+        "rgb": [
+            252,
+            78,
+            42
+        ],
+        "sequenceId": "YlOrRd"
+    },
+    {
+        "rgb": [
+            227,
+            26,
+            28
+        ],
+        "sequenceId": "YlOrRd"
+    },
+    {
+        "rgb": [
+            177,
+            0,
+            38
+        ],
+        "sequenceId": "YlOrRd"
+    }
+]

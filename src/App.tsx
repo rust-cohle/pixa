@@ -3,9 +3,18 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import './App.css';
 
-import ColorPicker from './component/color-picker/color-picker.tsx';
-import DrawingCanvas from './component/drawing-canvas/drawing-canvas.tsx';
-import { ColorPickerService } from './component/color-picker/color-picker-service';
+import ColorPanel from './component/colors/color-panel/color-panel';
+import ColorPicker from './component/colors/color-picker/color-picker';
+import DrawingCanvas, { ICanvasConfig } from './component/drawing-canvas/drawing-canvas';
+import { ColorService } from './component/colors/color-service';
+
+const defaultCanvasConfig: ICanvasConfig = {
+  squareSize: 10,
+  stageSize: {
+    width: 300,
+    height: 300,
+  }
+}
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -17,12 +26,16 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'center',
     color: theme.palette.text.secondary,
   },
+  flexColumn: {
+    display: "flex",
+    flexDirection: "column",
+  }
 }));
 
 function App() {
   const classes = useStyles();
 
-  const colorPicker = new ColorPickerService();
+  const colorService = new ColorService();
 
   return (
     <div className="App">
@@ -32,12 +45,15 @@ function App() {
             <Grid container spacing={3}>
               <Grid item xs={4}>
                 <Paper className={classes.paper}>
-                  <ColorPicker colorPicker={colorPicker} />
+                  <div className={classes.flexColumn}>
+                    <ColorPanel colorService={colorService} />
+                    <ColorPicker />
+                  </div>
                 </Paper>
               </Grid>
               <Grid item xs={8}>
                 <Paper className={classes.paper}>
-                  <DrawingCanvas />
+                  <DrawingCanvas canvasConfig={defaultCanvasConfig} />
                 </Paper>
               </Grid>
             </Grid>
