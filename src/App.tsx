@@ -49,7 +49,7 @@ function App() {
               </Grid>
               <Grid item xs={8}>
                 <Paper className={classes.paper}>
-                  <DrawingCanvas canvasConfig={defaultCanvasConfig} />
+                  <DrawingCanvas canvasConfig={defaultCanvasConfig} colorService={colorService} />
                 </Paper>
               </Grid>
             </Grid>

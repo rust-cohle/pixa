@@ -12,11 +12,22 @@ export interface ColorServiceOptions {
 export class ColorService {
     private _colors: Color[] = [];
 
+    private _selectedColor: Color;
+
     constructor(options: ColorServiceOptions = DEFAULT_PICKER_OPTIONS) {
         this._colors = options.colors.map((colorDescription) => new Color(colorDescription));
+        this._selectedColor = this._colors[0];
     }
 
     get colors(): Color[] {
         return this._colors;
+    }
+
+    get selectedColor(): Color {
+        return this._selectedColor;
+    }
+
+    set selectedColor(color: Color) {
+        this._selectedColor = color;
     }
 }

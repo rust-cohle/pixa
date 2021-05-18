@@ -81,9 +81,18 @@ export class Color {
     }
 
     private computeHexa(rgb: number[]): string {
-        const r = Number(rgb[0]).toString(16);
-        const g = Number(rgb[1]).toString(16);
-        const b = Number(rgb[2]).toString(16);
+        let r = this.rgbCoordToHexa(rgb[0]);
+        let g = this.rgbCoordToHexa(rgb[1]);
+        let b = this.rgbCoordToHexa(rgb[2]);
         return `#${r}${g}${b}`
+    }
+
+    private rgbCoordToHexa(coord: number): string {
+        const hexa: string = Number(coord).toString(16);
+        if (hexa.length === 1) {
+            return '0' + hexa;
+        }
+
+        return hexa;
     }
 }

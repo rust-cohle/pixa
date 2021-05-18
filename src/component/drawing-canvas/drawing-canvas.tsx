@@ -1,6 +1,7 @@
 import Konva from 'konva';
 import { useEffect, useRef } from 'react';
 import { mergeMap, skipUntil, takeUntil } from 'rxjs/operators';
+import { ColorService } from '../colors/color-service';
 import { fromKonvaEvent } from './utils';
 
 export interface ICanvasConfig {
@@ -16,12 +17,15 @@ interface CellRects {
 };
 
 interface DrawingCanvasProps {
-    canvasConfig: ICanvasConfig
+    canvasConfig: ICanvasConfig;
+    colorService: ColorService
 }
 function DrawingCanvas(props: DrawingCanvasProps): JSX.Element {
     const cellRects: CellRects = {};
 
     const canvasContainer = useRef(null);
+
+    const colorService: ColorService = props.colorService;
 
     useEffect(() => {
         const { width, height } = props.canvasConfig.stageSize;
@@ -115,7 +119,7 @@ function DrawingCanvas(props: DrawingCanvasProps): JSX.Element {
 
         const layerClick$ = fromKonvaEvent(rect, 'click');
         layerClick$.subscribe(ev => {
-            rect.setAttr('fill', '#ff0000');
+            rect.setAttr('fill', colorService.selectedColor.hexa);
             (rect.getParent() as Konva.Layer).batchDraw();
         });
     }
@@ -125,7 +129,7 @@ function DrawingCanvas(props: DrawingCanvasProps): JSX.Element {
             return;
         }
 
-        rect.setAttr('fill', '#ff0000');
+        rect.setAttr('fill', colorService.selectedColor.hexa);
         (rect.getParent() as Konva.Layer).batchDraw();
     }
 

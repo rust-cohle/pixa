@@ -1,8 +1,9 @@
 import { makeStyles } from "@material-ui/core";
+import { useState } from "react";
 import { ColorService } from "../color-service";
 
 const useStyles = makeStyles((theme) => ({
-    availableColors: {
+    flexColumn: {
         display: "flex",
         flexDirection: "column",
     },
@@ -25,6 +26,11 @@ interface ColorPaletteProps {
 }
 function ColorPalette(props: ColorPaletteProps): JSX.Element {
     const classes = useStyles();
+    const colorService = props.colorService;
+
+    const [state, setState] = useState({
+        selectedColor: colorService.selectedColor
+    });
 
     const colorElements = props.colorService.colors
         .filter(color => color.isValid)
@@ -43,6 +49,7 @@ function ColorPalette(props: ColorPaletteProps): JSX.Element {
                         className={classes.availableColor}
                         style={{ backgroundColor: color.rgbCSS }}
                         title={color.name}
+                        onClick={onColorSelected.bind(null, color)}
                     />
                 )
             });
@@ -55,9 +62,18 @@ function ColorPalette(props: ColorPaletteProps): JSX.Element {
             );
         })
 
+    function onColorSelected(color) {
+        colorService.selectedColor = color;
+        setState({
+            selectedColor: colorService.selectedColor
+        });
+
+    }
+
     return (
-        <div className="color-picker">
-            <div className={classes.availableColors}>
+        <div id="color-palette" className={classes.flexColumn}>
+            Palette
+            <div className={classes.flexColumn}>
                 {colorElements}
             </div>
         </div>
