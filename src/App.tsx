@@ -4,7 +4,6 @@ import Paper from '@material-ui/core/Paper';
 import './App.css';
 
 import ColorPanel from './component/colors/color-panel/color-panel';
-import ColorPicker from './component/colors/color-picker/color-picker';
 import DrawingCanvas, { ICanvasConfig } from './component/drawing-canvas/drawing-canvas';
 import { ColorService } from './component/colors/color-service';
 
@@ -45,10 +44,7 @@ function App() {
             <Grid container spacing={3}>
               <Grid item xs={4}>
                 <Paper className={classes.paper}>
-                  <div className={classes.flexColumn}>
-                    <ColorPanel colorService={colorService} />
-                    <ColorPicker />
-                  </div>
+                  <ColorPanel colorService={colorService} />
                 </Paper>
               </Grid>
               <Grid item xs={8}>
