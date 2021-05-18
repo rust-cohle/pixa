@@ -1,7 +1,7 @@
 import Konva from 'konva';
 import { useEffect, useRef } from 'react';
-import { mergeMap, skipUntil, takeUntil } from 'rxjs/operators';
-import { ColorService } from '../colors/color-service';
+import { mergeMap, skipUntil, takeUntil, throttleTime } from 'rxjs/operators';
+import { ColorService } from '../editor/color-service';
 import { fromKonvaEvent } from './utils';
 
 export interface ICanvasConfig {
@@ -82,7 +82,7 @@ function DrawingCanvas(props: DrawingCanvasProps): JSX.Element {
         const layerMouseDown$ = fromKonvaEvent(layer, 'mousedown');
         const layerMouseUp$ = fromKonvaEvent(layer, 'mouseup');
         const layerMouseLeave$ = fromKonvaEvent(layer, 'mouseleave');
-        const layerMove$ = fromKonvaEvent(layer, 'mousemove');
+        const layerMove$ = fromKonvaEvent(layer, 'mousemove').pipe(throttleTime(5));
         const layerDrag$ = layerMove$.pipe(
             mergeMap(
                 () => layerMove$.pipe(

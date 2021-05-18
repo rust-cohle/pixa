@@ -1,6 +1,6 @@
 import { makeStyles } from "@material-ui/core";
 import { useState } from "react";
-import { ColorService } from "../color-service";
+import { ColorService } from "../../color-service";
 
 const useStyles = makeStyles((theme) => ({
     flexColumn: {

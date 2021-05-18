@@ -3,9 +3,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import './App.css';
 
-import ColorPanel from './component/colors/color-panel/color-panel';
+import Editor from './component/editor/editor/editor';
 import DrawingCanvas, { ICanvasConfig } from './component/drawing-canvas/drawing-canvas';
-import { ColorService } from './component/colors/color-service';
+import { ColorService } from './component/editor/color-service';
 
 const defaultCanvasConfig: ICanvasConfig = {
   squareSize: 10,
@@ -44,7 +44,7 @@ function App() {
             <Grid container spacing={3}>
               <Grid item xs={4}>
                 <Paper className={classes.paper}>
-                  <ColorPanel colorService={colorService} />
+                  <Editor colorService={colorService} />
                 </Paper>
               </Grid>
               <Grid item xs={8}>
