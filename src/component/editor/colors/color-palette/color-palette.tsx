@@ -2,7 +2,7 @@ import { makeStyles } from "@material-ui/core";
 import { useState } from "react";
 import { ColorService } from "../../color-service";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
     flexColumn: {
         display: "flex",
         flexDirection: "column",

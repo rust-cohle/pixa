@@ -1,5 +1,5 @@
 import { Color, IColor } from './model';
-import defaultColors from './data/default-colors.json';
+// import defaultColors from './data/default-colors.json';
 import defaultColors2 from './data/default-colors2.json';
 import { BehaviorSubject, Observable } from 'rxjs';
 
